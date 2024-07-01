@@ -11,7 +11,8 @@ li {
     list-style: none;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
 }
 
@@ -293,7 +294,7 @@ a, a:hover {
 .about-us .right .box:hover h4 {
     color: #fff;
     transition: all .2s ease;
-} 
+}
 
 .about-us .right .box p {
     font-size: 12px;
@@ -347,7 +348,7 @@ a, a:hover {
     width: 80%;
     margin-top: 40px;
     margin-bottom: 40px;
-} 
+}
 
 .team-work .container .box {
     display: flex;
@@ -368,12 +369,15 @@ a, a:hover {
 #image1 {
     background-image: url('../assets/images/1.jpg');
 }
+
 #image2 {
     background-image: url('../assets/images/2.jpg');
 }
+
 #image3 {
     background-image: url('../assets/images/3.png');
 }
+
 #image4 {
     background-image: url('../assets/images/4.jpg');
 }
@@ -435,6 +439,67 @@ a, a:hover {
 }
 
 .team-work .container .box svg:first-child {
+    margin: 0;
+}
+
+.news {
+    background-color: #f6f6f8;
+    padding: 80px 0;
+}
+
+.news p {
+    margin-left: 80px;
+    font-size: 15px;
+    color: #e94c85;
+    margin-bottom: 5px;
+}
+
+.news h5 {
+    margin-left: 80px;
+    font-size: 30px;
+    color: #081588;
+    font-weight: bold;
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+.news .box {
+    width: 25%;
+}
+
+#news1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9pGcw0EguEMSMAVo9O1Su1bAQ0tr6DPugM4_tU_bn-YjtXbU17hNeYSuw9JLbJNOOz3I&usqp=CAU');
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.news .box div p {
+    margin: 0;
+    background-color: #fff;
+    padding: 5px 22px;
+    font-size: 13px;
+    border-radius: 25px;
+    color: #e94c85;
+}
+
+.news .box h6 {
+    color: #081588;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 0 15px 0;
+}
+
+.news .box p {
+    font-size: 13px;
+    color: #858585;
+    line-height: 2;
     margin: 0;
 }
 

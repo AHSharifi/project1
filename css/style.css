@@ -612,3 +612,103 @@ footer .box .address p {
     margin: 0;
     font-size: 14px;
 }
+
+
+/*
+
+
+--------------------------------------------------------------------------------
+===================================== Blog =====================================
+________________________________________________________________________________
+
+
+*/
+
+.menu2 {
+    height: 250px;
+    align-items: flex-start;
+    color: #f6f6f8;
+}
+
+.menu2 h1 {
+    color: #081588;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.menu2 p {
+    color: #081588;
+}
+
+.news button {
+    background-color: #e94c85;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.contact {
+    padding: 80px 0;
+    background-color: #f6f6f8;
+}
+.contact .container h2 {
+    color: #081588;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+
+.contact .container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 900px;
+    margin-bottom: 50px;
+}
+
+.contact .container form div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact .container form div input {
+    width: 280px;
+    border: 1px solid #d8d8d8;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.contact .container form textarea {
+    border: 1px solid #d8d8d8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 100%;
+}
+
+.contact .container form button {
+    padding: 8px 25px;
+    background-color: #e94c85;
+    color: #fff;
+    border: 0;
+    border-radius: 25px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.contact .container div h3 {
+    color: #081588;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contact .container div div h4 {
+    color: #e94c85;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}

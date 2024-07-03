@@ -664,6 +664,7 @@ ________________________________________________________________________________
     padding: 80px 0;
     background-color: #f6f6f8;
 }
+
 .contact .container h2 {
     color: #081588;
     font-weight: bold;
@@ -795,4 +796,518 @@ ________________________________________________________________________________
     border-radius: 25px;
     font-size: 14px;
     margin-top: 20px;
+}
+
+/*
+
+
+---------------------------------------------------------------------------------
+===================================== About =====================================
+_________________________________________________________________________________
+
+
+*/
+
+.about {
+    padding: 50px 0;
+    background-color: #f6f6f8;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.about .box .left {
+    width: 30%;
+}
+
+.about .box .right {
+    width: 55%;
+}
+
+.about .box img {
+    width: 100%;
+}
+
+.about .box .left h2 {
+    color: #081588;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.about .box .left span {
+    color: #e94c85;
+    font-size: 14px;
+}
+
+.about .box .left p {
+    color: #858585;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.about .box .box2 {
+    width: 25%;
+}
+
+.about .box .box2 h3 {
+    color: #081588;
+    border-bottom: 1px solid #d8d8d8;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.about .box .box2 span {
+    color: #e94c85;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.about .box .box2 p {
+    color: #858585;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: justify;
+    width: 95%;
+}
+
+/*
+
+
+----------------------------------------------------------------------------------------
+===================================== Blog Details =====================================
+________________________________________________________________________________________
+
+
+*/
+
+.blog-details {
+    background-color: #f6f6f8;
+}
+
+.blog-details .container {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog-details .left {
+    width: 50%;
+}
+
+.blog-details .right {
+    width: 20%;
+    margin-left: 40px;
+}
+
+.blog-details .left h2 {
+    color: #081588;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.blog-details .left p.info {
+    color: #858585;
+    font-size: 14px;
+}
+
+.blog-details .left p.content {
+    text-align: justify;
+    line-height: 2;
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-details .left .end-box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.blog-details .left .end-box p {
+    padding: 5px 20px;
+    background-color: #e94c85;
+    color: #fff;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+
+.blog-details .left .comments h3 {
+    color: #081588;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blog-details .left .comments li {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-details .left .comments li img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.blog-details .left .comments li div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blog-details .left .comments li div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.blog-details .left .comments li div div h5 {
+    margin-bottom: 0;
+}
+
+.blog-details .left .comments li div div p {
+    margin-bottom: 0;
+    color: #858585;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.blog-details .left .comments form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+
+    margin-top: 30px;
+}
+
+.blog-details .left .comments form div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.blog-details .left .comments form div input {
+    width: 320px;
+    padding: 13px 20px;
+    border-radius: 25px;
+    border: 1px solid #d8d8d8;
+}
+
+.blog-details .left .comments form textarea {
+    width: 100%;
+    border-radius: 25px;
+    padding: 20px;
+    border: 1px solid #d8d8d8;
+}
+
+.blog-details .left .comments form button {
+    background-color: #e94c85;
+    border: 0;
+    border-radius: 25px;
+    padding: 10px 30px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.blog-details .right .categories h3 {
+    color: #081588;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blog-details .right .categories ul {
+    padding-left: 0;
+}
+
+.blog-details .right .categories li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-details .right .blogs h3 {
+    color: #081588;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.blog-details .right .blogs ul {
+    padding-left: 0;
+}
+
+.blog-details .right .blogs li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blog-details .right .blogs li img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.blog-details .right .blogs li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.blog-details .right .blogs li div h6 {
+    color: #081588;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.blog-details .right .blogs li div p {
+    margin-bottom: 0;
+    color: #e94c85;
+    font-size: 15px;
+}
+
+.blog-details .right .tags h3 {
+    color: #081588;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.blog-details .right .tags div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blog-details .right .tags div p {
+    border: 1px solid #d8d8d8;
+    padding: 5px 15px;
+    border-radius: 25px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu .menu-items ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .menu .menu-items ul li {
+        margin: 10px 0;
+    }
+
+    .menu .logo-box img {
+        width: 90px;
+    }
+
+    .welcome .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .welcome .texts {
+        width: 90%;
+    }
+
+    .welcome .texts h1 {
+        font-size: 50px;
+    }
+
+    .brands .container img {
+        width: 100px;
+    }
+
+    .about-us .box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-us .box .right,
+    .about-us .box .left {
+        width: 90%;
+    }
+
+    .about-us .box2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us .box2 .left,
+    .about-us .box2 .right {
+        width: 90%;
+    }
+
+    .team-work .container .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-work .container .box {
+        width: 80%;
+    }
+
+    .news h5,
+    .news p {
+        margin-left: 20px;
+    }
+
+    .news .box {
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+
+    .question .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .question .right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .question .right input {
+        width: 80%;
+    }
+
+    .question .right button {
+        width: 80%;
+        right: 0;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .box {
+        width: 90%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contact .container form {
+        width: 90%;
+    }
+
+    .price .container {
+        padding: 30px 0;
+    }
+
+    .about .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .box .left,
+    .about .box .right {
+        width: 90%;
+    }
+
+    .blog-details .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-details .left,
+    .blog-details .right {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .menu .menu-items button {
+        width: 100px;
+        padding: 5px 10px;
+    }
+
+    .welcome .texts h1 {
+        font-size: 40px;
+    }
+
+    .welcome .texts p {
+        font-size: 11px;
+    }
+
+    .about-us .box .right img {
+        width: 100px;
+    }
+
+    .team-work .container .box .image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .team-work .container .box h5 {
+        font-size: 20px;
+    }
+
+    .contact .container h2 {
+        font-size: 30px;
+    }
+
+    .price .container h2 {
+        font-size: 30px;
+    }
+
+    .price .box h4 {
+        font-size: 40px;
+    }
+
+    .about .box .left h2 {
+        font-size: 25px;
+    }
+
+    .about .box .left p {
+        font-size: 13px;
+    }
+
+    .blog-details .left h2 {
+        font-size: 30px;
+    }
+
+    .blog-details .left p.info {
+        font-size: 12px;
+    }
+
+    .blog-details .left p.content {
+        font-size: 14px;
+    }
+
+    .blog-details .right .categories h3,
+    .blog-details .right .blogs h3,
+    .blog-details .right .tags h3 {
+        font-size: 20px;
+    }
 }

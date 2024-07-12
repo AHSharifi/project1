@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: DM;
     src: url('../assets/fonts/DMSans_18pt-Regular.ttf');
@@ -5,6 +9,7 @@
 
 body {
     font-family: DM;
+    width: 100vw;
 }
 
 li {
@@ -17,7 +22,7 @@ a:hover {
 }
 
 .menu {
-    height: 70px;
+    min-height: 70px;
     display: flex;
     align-items: center;
 }
@@ -1110,6 +1115,10 @@ ________________________________________________________________________________
 }
 
 @media only screen and (max-width: 768px) {
+    .container {
+        padding: 0;
+    }
+
     .menu .container {
         flex-direction: column;
         align-items: center;
@@ -1144,7 +1153,7 @@ ________________________________________________________________________________
     }
 
     .brands .container img {
-        width: 100px;
+        width: 20%;
     }
 
     .about-us .box {
@@ -1158,6 +1167,24 @@ ________________________________________________________________________________
         width: 90%;
     }
 
+    .about-us p {
+        font-size: 11px;
+    }
+
+    .about-us h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .about-us .box .left img {
+        width: 90%;
+    }
+
+    .about-us .box .right {
+        justify-content: center;
+        padding: 20px 40px;
+    }
+
     .about-us .box2 {
         flex-direction: column;
         align-items: center;
@@ -1168,13 +1195,81 @@ ________________________________________________________________________________
         width: 90%;
     }
 
+    .about-us .box2 .left span {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .about-us .box2 .left h3 {
+        font-size: 25px;
+    }
+
+    .about-us .box2 .left p {
+        font-size: 12px;
+    }
+
+    .about-us .box2 .left button {
+        width: 150px;
+        font-size: 11px;
+        padding: 10px 15px;
+    }
+    
+    .about-us .box2 .right .box p {
+        font-size: 11px;
+    }
+
     .team-work .container .images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .team-work .container .images .box {
+        width: 40%;
+        display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .team-work .container .images .box div.image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .team-work .container .images .box h5 {
+        font-size: 16px;
+    }
+
+    .team-work .container .images .box p {
+        font-size: 10px;
+        margin-top: 5px;
     }
 
     .team-work .container .box {
         width: 80%;
+    }
+
+    .team-work .container .box2 {
+        flex-direction: column;
+    }
+
+    .team-work .container .box2 .box {
+        width: 80%;
+    }
+
+    .team-work .container .box2 .box div h6 {
+        font-size: 30px;
+    }
+
+    .team-work .container .box2 .box div p {
+        font-size: 18px;
+    }
+
+    .team-work .container .box2 .box p {
+        font-size: 10px;
     }
 
     .news h5,
@@ -1182,9 +1277,27 @@ ________________________________________________________________________________
         margin-left: 20px;
     }
 
+    .news p {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .news h5 {
+        width: 60%;
+        font-size: 25px;
+    }
+
     .news .box {
         width: 90%;
         margin: 0 auto 30px auto;
+    }
+    
+    .news .box p {
+        font-size: 11px;
+    }
+
+    .news .box #news1,#news2,#news3 {
+        height: 200px;
     }
 
     .question .container {
@@ -1195,15 +1308,20 @@ ________________________________________________________________________________
     .question .right {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .question .right input {
-        width: 80%;
+        width: 300px;
     }
 
     .question .right button {
-        width: 80%;
-        right: 0;
+        width: 120px;
+        right: 38px;
+    }
+
+    footer {
+        height: 800px;
     }
 
     footer .container {
@@ -1214,7 +1332,13 @@ ________________________________________________________________________________
     footer .box {
         width: 90%;
         margin-bottom: 20px;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .box ul {
+        width: 60%;
     }
 
     .contact .container form {
@@ -1246,7 +1370,25 @@ ________________________________________________________________________________
     }
 }
 
+#collapseBtn {
+    display: none;
+}
+#collapseBtn:hover,
+#collapseBtn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
 @media only screen and (max-width: 480px) {
+    .menu .menu-items {
+        display: none;
+    }
+    #collapseBtn {
+        display: inline-block;
+    }
+    #collapseBody{
+        display: block;
+    }
     .menu .menu-items button {
         width: 100px;
         padding: 5px 10px;

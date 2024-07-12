@@ -486,6 +486,12 @@ a:hover {
     margin-bottom: 30px;
 }
 
+.news .container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .news .box div p {
     margin: 0;
     background-color: #fff;
@@ -1139,14 +1145,24 @@ ________________________________________________________________________________
         width: 90px;
     }
 
+    .welcome {
+        height: 350px;
+    }
+
     .welcome .container {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        justify-content: center;
     }
 
     .welcome .texts {
-        width: 90%;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .welcome .icons {
+        margin-bottom: 20px;
     }
 
     .welcome .texts h1 {
@@ -1214,7 +1230,14 @@ ________________________________________________________________________________
         font-size: 11px;
         padding: 10px 15px;
     }
-    
+
+    .about-us .box2 .right {
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
+
     .about-us .box2 .right .box p {
         font-size: 11px;
     }
@@ -1288,17 +1311,28 @@ ________________________________________________________________________________
         font-size: 25px;
     }
 
+    .news .container div {
+        flex-direction: column;
+    }
+
     .news .box {
         width: 90%;
-        margin: 0 auto 30px auto;
+        margin: 0 auto 50px auto;
     }
-    
+
     .news .box p {
         font-size: 11px;
     }
 
-    .news .box #news1,#news2,#news3 {
+    .news .box #news1,
+    #news2,
+    #news3 {
         height: 200px;
+    }
+
+    #news1,#news2,#news3 {
+        align-items: flex-start;
+        justify-content: flex-end;
     }
 
     .question .container {
@@ -1374,8 +1408,9 @@ ________________________________________________________________________________
 #collapseBtn {
     display: none;
 }
+
 #collapseBtn:hover,
-#collapseBtn:focus{
+#collapseBtn:focus {
     outline: none;
     box-shadow: none;
 }
@@ -1384,14 +1419,19 @@ ________________________________________________________________________________
     .menu .menu-items {
         display: none;
     }
+
     #collapseBtn {
         display: inline-block;
     }
-    #collapseBody{
+
+    #collapseBody {
         display: block;
     }
+
     .menu .menu-items button {
-        width: 100px;
+        width: 110px;
+        margin-bottom: 10px;
+        margin-left: 30px;
         padding: 5px 10px;
     }
 

@@ -1,3 +1,7 @@
+:root {
+    --background: #000;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -1874,5 +1878,41 @@ ________________________________________________________________________________
     .contact .container .info {
         width: 100%;
         margin-top: 30px;
+    }
+
+    .blog-details .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-details .container .left img {
+        width: 100%;
+    }
+
+    .blog-details .container .left .content {
+        font-size: 14px;
+    }
+
+    .blog-details .container .comments {
+        margin-bottom: 50px;
+    }
+
+    .blog-details .container .comments li p {
+        font-size: 13px;
+    }
+
+    .blog-details .container .comments form div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .blog-details .container .comments form div input {
+        margin-bottom: 10px;
+    }
+
+    .blog-details .container .right {
+        width: 90%;
+        margin-left: 0;
     }
 }

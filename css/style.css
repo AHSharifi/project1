@@ -735,6 +735,7 @@ ________________________________________________________________________________
     border-radius: 25px;
     padding: 10px 20px;
     font-size: 15px;
+    outline: none;
 }
 
 .contact .container form textarea {
@@ -742,6 +743,7 @@ ________________________________________________________________________________
     border-radius: 25px;
     padding: 20px;
     width: 100%;
+    outline: none;
 }
 
 .contact .container form button {
@@ -1394,6 +1396,7 @@ ________________________________________________________________________________
 
     .question .right input {
         width: 300px;
+        outline: none;
     }
 
     .question .right button {
